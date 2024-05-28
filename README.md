@@ -33,4 +33,4 @@ Redux is a state management library for JavaScript applications, commonly used w
 
 ## Output
 
-check through=>
+check through=>https://redux-task-sri2403.netlify.app/

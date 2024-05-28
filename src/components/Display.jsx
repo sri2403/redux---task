@@ -25,7 +25,7 @@ const Display = () => {
                       <h2>{product.title}</h2>
                       <h5>Price: ${product.price}</h5>
                       <h5>Discount: {product.discountPercentage}</h5>
-                      <h5>Rating: {product.rating}</h5>
+                      <h5>Rating: {product.rating}%</h5>
                       <h5>Brand: {product.brand}</h5>
                       <h5>Stock: {product.stock}</h5>
                       <div className="d-flex justify-content-center">

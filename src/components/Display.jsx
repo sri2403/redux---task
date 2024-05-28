@@ -23,7 +23,7 @@ const Display = () => {
                   <li key={product.id} className="list-group-item d-flex justify-content-between align-items-center bg-white mb-3">
                     <div className='one'>
                       <h2>{product.title}</h2>
-                      <h5>{products.description}</h5>
+                      <h5>{product.description}</h5>
                       <h6>Price: ${product.price}</h6>
                       <h6>Discount: {product.discountPercentage}%</h6>
                       <h6>Rating: {product.rating}</h6>

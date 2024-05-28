@@ -23,11 +23,12 @@ const Display = () => {
                   <li key={product.id} className="list-group-item d-flex justify-content-between align-items-center bg-white mb-3">
                     <div className='one'>
                       <h2>{product.title}</h2>
-                      <h5>Price: ${product.price}</h5>
-                      <h5>Discount: {product.discountPercentage}%</h5>
-                      <h5>Rating: {product.rating}</h5>
-                      <h5>Brand: {product.brand}</h5>
-                      <h5>Stock: {product.stock}</h5>
+                      <h5>{products.description}</h5>
+                      <h6>Price: ${product.price}</h6>
+                      <h6>Discount: {product.discountPercentage}%</h6>
+                      <h6>Rating: {product.rating}</h6>
+                      <h6>Brand: {product.brand}</h6>
+                      <h6>Stock: {product.stock}</h6>
                       <div className="d-flex justify-content-center">
   <div className="btn-group" role="group">
     <button className="btn btn-primary m-2" onClick={() => dispatch(incrementQuantity(product.id))}>+</button>
